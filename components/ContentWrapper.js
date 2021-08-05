@@ -40,7 +40,8 @@ const HEADER_HEIGHT = 176
 
 const styles = StyleSheet.create({
     darkBackground: {
-        backgroundColor: palette.appBackground
+        backgroundColor: palette.appBackground,
+        height: '100%'
     },
     statusBar: {
         backgroundColor: palette.headerBackground,

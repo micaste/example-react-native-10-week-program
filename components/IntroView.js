@@ -11,6 +11,7 @@ import {data} from '../data/data.js';
 import { Button } from './Button.js';
 import { AmazonButton } from './AmazonButton.js';
 import {state} from '../state/state.js';
+import { changeCurrentWeek } from '../state/reducers.js';
 
 // This will run only once, it is static
 const introTabs = [{text: 'Intro', isDisabled: false}].concat(data.map(week => {
@@ -21,12 +22,10 @@ const amazonLink = 'https://www.amazon.com/Mythical-Man-Month-Software-Engineeri
 
 export const IntroView = () => {
     const handleBeginProgram = () => {
-        state.updateValue(previousState => {
-            return {...previousState, currentWeek: 1}
-        })
+        state.updateValue(previousState => changeCurrentWeek(previousState, 1));
     }
     return <View style={styles.container}>
-        <TabBar activeTab={0} tabs={introTabs} />
+        <TabBar activeTab={0} tabs={introTabs} onTabChange={() => {}}/>
         <Text style={styles.title}>
         Welcome to the 10-week Heart Breath Mind program by Dr. Leah Lagos.
         </Text>

@@ -13,70 +13,70 @@ export const data = [{
         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
     ]
-},{
-    introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
-    items: [
-        {text: 'Practice resonant breathing at least 4 times this week'},
-        {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
-        {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
-        {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
-    ]
-},{
-    introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
-    items: [
-        {text: 'Practice resonant breathing at least 4 times this week'},
-        {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
-        {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
-        {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
-    ]
-},{
-    introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
-    items: [
-        {text: 'Practice resonant breathing at least 4 times this week'},
-        {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
-        {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
-        {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
-    ]
-},{
-    introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
-    items: [
-        {text: 'Practice resonant breathing at least 4 times this week'},
-        {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
-        {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
-        {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
-    ]
-},{
-    introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
-    items: [
-        {text: 'Practice resonant breathing at least 4 times this week'},
-        {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
-        {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
-        {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
-    ]
-},{
-    introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
-    items: [
-        {text: 'Practice resonant breathing at least 4 times this week'},
-        {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
-        {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
-        {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
-    ]
-},{
-    introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
-    items: [
-        {text: 'Practice resonant breathing at least 4 times this week'},
-        {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
-        {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
-        {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
-    ]
-},{
-    introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
-    items: [
-        {text: 'Practice resonant breathing at least 4 times this week'},
-        {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
-        {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
-        {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
-    ]
+// },{
+//     introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
+//     items: [
+//         {text: 'Practice resonant breathing at least 4 times this week'},
+//         {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
+//         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
+//         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
+//     ]
+// },{
+//     introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
+//     items: [
+//         {text: 'Practice resonant breathing at least 4 times this week'},
+//         {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
+//         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
+//         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
+//     ]
+// },{
+//     introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
+//     items: [
+//         {text: 'Practice resonant breathing at least 4 times this week'},
+//         {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
+//         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
+//         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
+//     ]
+// },{
+//     introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
+//     items: [
+//         {text: 'Practice resonant breathing at least 4 times this week'},
+//         {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
+//         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
+//         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
+//     ]
+// },{
+//     introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
+//     items: [
+//         {text: 'Practice resonant breathing at least 4 times this week'},
+//         {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
+//         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
+//         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
+//     ]
+// },{
+//     introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
+//     items: [
+//         {text: 'Practice resonant breathing at least 4 times this week'},
+//         {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
+//         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
+//         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
+//     ]
+// },{
+//     introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
+//     items: [
+//         {text: 'Practice resonant breathing at least 4 times this week'},
+//         {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
+//         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
+//         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
+//     ]
+// },{
+//     introText: 'This week is all about using your breath to inclease your energy with Resonant breathing.',
+//     items: [
+//         {text: 'Practice resonant breathing at least 4 times this week'},
+//         {text: 'Start with 5 minute sessions. Then increase the duration by a few minutes each session'},
+//         {text: 'Notice anything that distracts you during the session. Just observe it without judging whether it is good or bad.'},
+//         {text: 'Continue taking Morning Readiness HRV readings when convenient for you. Daily is best.'},
+//     ]
 }]
 // This will run only once
 data.forEach((week, index) => {
