@@ -5,6 +5,8 @@ import {
 
 import {ContentWrapper} from './components/ContentWrapper.js';
 import { IntroView } from './components/IntroView.js';
+import { WeekView } from './components/week/WeekView.js';
+import {useAppState} from './state/state.js';
 
 const styles = StyleSheet.create({
   sectionContainer: {
@@ -26,7 +28,14 @@ const styles = StyleSheet.create({
 });
 
 const App = () => {
-  return <ContentWrapper><IntroView/></ContentWrapper>
+  const appState = useAppState();
+
+  return <ContentWrapper>
+    {appState.currentWeek === 0 ?
+      <IntroView /> :
+      <WeekView />
+    }
+    </ContentWrapper>
 }
 
 export default App;

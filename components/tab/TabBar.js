@@ -1,24 +1,32 @@
 import React from 'react';
 import {
-    SafeAreaView,
     ScrollView,
-    StatusBar,
     StyleSheet,
-    Text,
-    useColorScheme,
-    Image,
     View,
   } from 'react-native';
 import {TabItem} from './TabItem.js';
 
-export const TabBar = ({activeTab, tabs}) =>
-<View style={styles.scrollContainer}>
-    <ScrollView style={styles.scrollView} bounces={false} showsVerticalScrollIndicator={false} horizontal={true}>
-        {tabs.map((tab, tabIndex) =>
-            <TabItem key={tab.text} isDisabled={tab.isDisabled} isActive={activeTab === tabIndex}>{tab.text}</TabItem>
-        )}
-    </ScrollView>
-    </View>
+export const TabBar = ({activeTab, tabs, onTabChange}) => {
+    const getHandleTabItemPress = index => () => {
+        onTabChange(index);
+    }
+    return <View style={styles.scrollContainer}>
+        <ScrollView
+            style={styles.scrollView}
+            bounces={false}
+            showsVerticalScrollIndicator={false}
+            showsHorizontalScrollIndicator={false}
+            horizontal={true}>
+            {tabs.map((tab, tabIndex) =>
+                <TabItem
+                onPress={getHandleTabItemPress(tabIndex)}
+                key={tab.text}
+                isDisabled={tab.isDisabled}
+                isActive={activeTab === tabIndex}>{tab.text}</TabItem>
+            )}
+        </ScrollView>
+        </View>
+};
 TabBar.defaultProps = {
     activeTab: 0
 }
@@ -32,6 +40,5 @@ const styles = StyleSheet.create({
         width: '100%',
         flexWrap: 'nowrap',
         flexDirection: 'row'
-
     }
 });
