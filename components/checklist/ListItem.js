@@ -12,7 +12,7 @@ import { palette } from '../../utils/Palette';
 export const ListItem = ({value, onChange, label, isDisabled}) => {
     return <TouchableWithoutFeedback onPress={isDisabled ? undefined : onChange}>
         <View style={styles.view}>
-            <Switch value={value} disabled={isDisabled} />
+            <Switch value={value} disabled={true} />
             <Text style={_fp.assign(styles.text, value ? styles.textSelected : {})}>{label}</Text>
         </View>
     </TouchableWithoutFeedback>
