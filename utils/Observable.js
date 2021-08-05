@@ -11,10 +11,12 @@ export default class Observable {
     _removeListener(key) {
         Reflect.deleteProperty(this.listeners, key)
     }
-    addListener(cb) {
+    addListener(cb, notifyRightAway = true) {
         const key = Object.keys(this.listeners).length;
         this.listeners[key] = cb;
-        cb(this.value);
+        if (notifyRightAway) {
+            cb(this.value);
+        }
         return () => {
             this._removeListener(key);
         }
